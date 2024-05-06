@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo-mario {
+    height: 200px;
+}
+
+button {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    /* para deixar os textos MAISCULOS*/
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+button:hover {
+    background-color:green;
+    transition: .5s  ease;
+}
+
+button:active {
+    opacity: .5;
+}
+
+.img-mario-luigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    /* FAZE O VIDEO FICAR ATRAS DOS ELEMENTOS*/
+    top:0 /* jogou o video todo pra cima */
+
+}
+
+video {
+    width: 100vw;
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.mascara {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+p {
+    color: white;
+    margin-top: 20px;
+}
+
+.link-whatsapp img {
+    width: 50px;
+    position: fixed; 
+    right: 30px;
+    bottom: 30px;
+}
+
+
+.cabeçalho img {
+    width:60px ;
+
+}
+
+.cabeçalho {
+    color: white;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+}
+.cabeçalho a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.cabeçalho a:hover {
+    color:  #c51111;
+    font-size: 26px;
+    transition: .2s  ease-in-out;
+}
