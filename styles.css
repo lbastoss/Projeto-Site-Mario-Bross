@@ -185,6 +185,8 @@ textarea {
 
 
 .mascara-formulário {
+
+    visibility: hidden; /* fez a mascara desaparecer */
     position: fixed;
     top:0;
     width: 100vw;
@@ -193,7 +195,7 @@ textarea {
 
 
 }
-/* 
+/*
 
 INICIAL 
     top: 30%;
