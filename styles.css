@@ -25,16 +25,16 @@
 
 
 .botato-entre-em-contato:hover {
-    background-color:green;
-    transition: .5s  ease;
+    background-color: green;
+    transition: .5s ease;
     opacity: .7;
     font-size: 15px;
 }
 
 .botato-entre-em-contato:active {
     opacity: .4;
-    transition: .01s  ease;
-    
+    transition: .01s ease;
+
 }
 
 .img-mario-luigi {
@@ -54,7 +54,8 @@ body {
     position: fixed;
     z-index: -1;
     /* FAZE O VIDEO FICAR ATRAS DOS ELEMENTOS*/
-    top:0 /* jogou o video todo pra cima */
+    top: 0
+        /* jogou o video todo pra cima */
 
 }
 
@@ -90,14 +91,14 @@ p {
 
 .link-whatsapp img {
     width: 50px;
-    position: fixed; 
+    position: fixed;
     right: 30px;
     bottom: 30px;
 }
 
 
 .cabeçalho img {
-    width:60px ;
+    width: 60px;
 
 }
 
@@ -108,6 +109,7 @@ p {
     align-items: center;
     margin: 30px;
 }
+
 .cabeçalho a {
     color: white;
     font-size: 24px;
@@ -116,9 +118,9 @@ p {
 }
 
 .cabeçalho a:hover {
-    color:  #c51111;
+    color: #c51111;
     font-size: 26px;
-    transition: .2s  ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 
@@ -131,7 +133,7 @@ p {
     left: 50px;
     padding: 20px;
     border-radius: 5px;
-    gap: 20px; 
+    gap: 20px;
     top: 30%;
     left: -300px;
     transition: left 1s ease-in-out;
@@ -146,7 +148,7 @@ input {
 }
 
 textarea {
-    width:270px;
+    width: 270px;
     height: 100px;
     border-radius: 5px;
     border: 1px solid black;
@@ -155,7 +157,7 @@ textarea {
 }
 
 .botao-formulario {
-    
+
     color: white;
     background-color: #c51111;
     border-radius: 5px;
@@ -174,28 +176,30 @@ textarea {
 .botao-formulario:hover {
     opacity: .7;
     background-color: green;
-    transition: .5s  ease;
+    transition: .5s ease;
     font-size: 15px;
 }
 
 .botao-formulario:active {
     opacity: .4;
-    transition: .01s  ease;
+    transition: .01s ease;
 }
 
 
 
 .mascara-formulário {
 
-    visibility: hidden; /* fez a mascara desaparecer */
+    visibility: hidden;
+    /* fez a mascara desaparecer */
     position: fixed;
-    top:0;
+    top: 0;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    transition: visibility 1s ease-in-out; 
+    transition: visibility 1s ease-in-out;
 
 }
+
 /*
 
 INICIAL 
@@ -211,3 +215,54 @@ FINAL
 
 
     */
+
+@media(max-width: 1100px) {
+    p {
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+
+    .caixa-principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .img-mario-luigi {
+        width: 80vw;
+        height: auto;
+    }
+
+    .cabeçalho img {
+        display: none;
+    }
+
+
+    .cabeçalho {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabeçalho a {
+        font-size: 20px;
+
+    }
+
+
+    .cabeçalho a:hover {
+        color: #c51111;
+        font-size: 18px;
+        transition: .2s ease-in-out;
+    }
+
+
+}
