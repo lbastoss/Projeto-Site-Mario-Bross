@@ -9,7 +9,7 @@
     height: 200px;
 }
 
-button {
+.botato-entre-em-contato {
     color: white;
     background-color: #c51111;
     border-radius: 3px;
@@ -24,13 +24,17 @@ button {
 }
 
 
-button:hover {
+.botato-entre-em-contato:hover {
     background-color:green;
     transition: .5s  ease;
+    opacity: .7;
+    font-size: 15px;
 }
 
-button:active {
-    opacity: .5;
+.botato-entre-em-contato:active {
+    opacity: .4;
+    transition: .01s  ease;
+    
 }
 
 .img-mario-luigi {
@@ -54,8 +58,11 @@ body {
 
 }
 
-video {
-    width: 100vw;
+.video-mario {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
 
 }
 
@@ -113,3 +120,91 @@ p {
     font-size: 26px;
     transition: .2s  ease-in-out;
 }
+
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px; 
+    top: 30%;
+    left: -300px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+    outline-color: red;
+}
+
+textarea {
+    width:270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+    outline-color: red;
+}
+
+.botao-formulario {
+    
+    color: white;
+    background-color: #c51111;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    /* para deixar os textos MAISCULOS*/
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.botao-formulario:hover {
+    opacity: .7;
+    background-color: green;
+    transition: .5s  ease;
+    font-size: 15px;
+}
+
+.botao-formulario:active {
+    opacity: .4;
+    transition: .01s  ease;
+}
+
+
+
+.mascara-formulário {
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+
+}
+/* 
+
+INICIAL 
+    top: 30%;
+
+    left: -300px;
+
+FINAL 
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%); = DESSA FORMA CENTRALIZA NO MEIO 
+    INDEPENDENTE DO TAMANHO DA TELA, MACETE USANDO O TRANSLATEX 
+
+
+    */
