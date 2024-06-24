@@ -6,7 +6,8 @@
 
 
 .logo-mario {
-    height: 200px;
+    height: 220px;
+
 }
 
 .botato-entre-em-contato {
@@ -71,7 +72,7 @@ body {
     display: flex;
     align-items: center;
     padding: 100px;
-    height: 100vh;
+    height: 75vh;
     justify-content: space-around;
 }
 
@@ -87,6 +88,7 @@ body {
 p {
     color: white;
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .link-whatsapp img {
@@ -98,14 +100,14 @@ p {
 
 
 .cabeçalho img {
-    width: 60px;
+    width: 80px;
 
 }
 
 .cabeçalho {
     color: white;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
     margin: 30px;
 }
