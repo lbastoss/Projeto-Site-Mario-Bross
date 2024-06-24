@@ -43,7 +43,9 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
+    
+
 
 }
 
@@ -72,7 +74,7 @@ body {
     display: flex;
     align-items: center;
     padding: 100px;
-    height: 75vh;
+    height: 67vh;
     justify-content: space-around;
 }
 
@@ -85,7 +87,7 @@ body {
     z-index: -1;
 }
 
-p {
+.text {
     color: white;
     margin-top: 20px;
     font-size: 18px;
@@ -187,7 +189,38 @@ textarea {
     transition: .01s ease;
 }
 
+.links-footer {
+    display: flex;
+    gap: 10px;
+   
+}
 
+.social-media:hover {
+    opacity: .8;
+}
+
+.social-media:active {
+    opacity: .4;
+}
+
+.social-media {
+    width: 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 20px;
+}
+
+.develop {
+    color: black;
+    font-weight: bold;
+
+}
 
 .mascara-formulário {
 
@@ -201,6 +234,9 @@ textarea {
     transition: visibility 1s ease-in-out;
 
 }
+
+
+
 
 /*
 
@@ -266,5 +302,5 @@ FINAL
         transition: .2s ease-in-out;
     }
 
-
+    
 }
